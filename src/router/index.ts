@@ -1,23 +1,25 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from '/src/components/Home.vue'
-import Note from '/src/components/Note.vue'
-import Profile from '/src/components/Profile.vue'
 const routes = [
     {
         path: '/',
         name: 'Home',
-        component: Home,
+        component: () => import('../components/Home.vue'),
     },
     {
         path: '/note',
         name: 'Note',
-        component: Note,
+        component: () => import('../components/Note.vue'),
     },
     {
         path: '/profile',
         name: 'Profile',
-        component: Profile,
-    }
+        component: () => import('../components/Profile.vue'),
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'Missing Page',
+        component: () => import('../components/MissingPage.vue'),
+    },
 
 ]
 
