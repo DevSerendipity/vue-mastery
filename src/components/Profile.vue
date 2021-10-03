@@ -1,7 +1,13 @@
 <template>
     <div
-        class="w-full h-24 bg-primary text-black font-bold flex justify-center items-center"
-    >USER PROFILE</div>
+        class="w-full h-16 bg-primary text-black font-bold flex justify-center items-center"
+    >USER PROFILE
+    <p class="absolute w-full h-16 flex justify-end items-end ">
+            <router-link class="mx-10" to="/">Go to Home</router-link>
+            <router-link class="mx-10" to="/note">Go to Note</router-link>
+            <router-link class="mx-10" to="/profile">Go to Profile</router-link>
+        </p>
+    </div>
     <div class="w-full h-full flex justify-center items-center mt-10 sm:mt-5 md:mt-8 lg:mt-10 xl:mt-16 2xl:mt-20">
         <img
             class="w-max h-20 sm:h-24 md:h-28 lg:h-36 xl:h-44 2xl:h-72 mb-5"
