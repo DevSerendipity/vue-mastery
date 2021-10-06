@@ -1,9 +1,9 @@
 <template>
     <div class="w-full h-16 bg-primary text-black font-bold flex justify-center items-center">NOTE
         <p class="absolute w-full h-16 flex justify-end items-end ">
-            <router-link class="mx-10" to="/">Go to Home</router-link>
-            <router-link class="mx-10" to="/note">Go to Note</router-link>
-            <router-link class="mx-10" to="/profile">Go to Profile</router-link>
+            <router-link v-if="$route.path != '/'"        class="" to="/">Go to Home</router-link>
+            <router-link v-if="$route.path != '/note'"    class=""      to="/note">Go to Note</router-link>
+            <router-link v-if="$route.path != '/profile'" class="mx-16" to="/profile">Go to Profile</router-link>
         </p>
     </div>
     

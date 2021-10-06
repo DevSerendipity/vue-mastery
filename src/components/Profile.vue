@@ -3,9 +3,9 @@
         class="w-full h-16 bg-primary text-black font-bold flex justify-center items-center"
     >USER PROFILE
     <p class="absolute w-full h-16 flex justify-end items-end ">
-            <router-link class="mx-10" to="/">Go to Home</router-link>
-            <router-link class="mx-10" to="/note">Go to Note</router-link>
-            <router-link class="mx-10" to="/profile">Go to Profile</router-link>
+            <router-link v-if="$route.path != '/'"                      to="/">Go to Home</router-link>
+            <router-link v-if="$route.path != '/note'"    class="mx-16" to="/note">Go to Note</router-link>
+            <router-link v-if="$route.path != '/profile'" class=""      to="/profile">Go to Profile</router-link>
         </p>
     </div>
     <div class="w-full h-full flex justify-center items-center mt-10 sm:mt-5 md:mt-8 lg:mt-10 xl:mt-16 2xl:mt-20">
