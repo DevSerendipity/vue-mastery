@@ -1,7 +1,7 @@
 <template>
     <div class="w-full h-full flex justify-center items-center">
         <img
-            class="w-max h-32 flex justify-center items-center mt-20"
+            class="w-max h-40 flex justify-center items-center mt-20"
             src="https://c.tenor.com/jaVORWcTiyEAAAAM/cute-fingers.gif"
         />
     </div>
