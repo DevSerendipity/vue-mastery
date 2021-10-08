@@ -18,19 +18,19 @@
 
     <div class="flex flex-row w-full h-full">
         <div class="w-full h-full flex flex-col justify-center items-center 2xl:mx-20">
-            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">BRO</div>
-            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">BRO</div>
-            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">BRO</div>
+            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
         </div>
         <div class="w-full h-full flex flex-col justify-center items-center 2xl:mx-20">
-            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">BRO</div>
-            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">BRO</div>
-            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">BRO</div>
+            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <div class="w-4/6 h-10 bg-primary m-4 rounded flex justify-center items-center my-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
         </div>
     </div>
     <div class="w-full h-max flex justify-around my-10 mb-20 ">
         <div
             class="w-full mx-11 sm:mx-14 md:mx-16 lg:mx-20 xl:mx-28 2xl:mx-48 h-10 bg-primary rounded flex justify-center items-center"
-        >BRO</div>
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis labore fuga maiores molestias aut natus velit odit omnis? Dolores molestias impedit quae illum fuga sed enim est, dolor eveniet!</div>
     </div>
 </template>
