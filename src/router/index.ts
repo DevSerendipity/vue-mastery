@@ -6,6 +6,23 @@ const routes = [
         component: () => import('../components/Home.vue'),
     },
     {
+        path: '/todo',
+        name: 'Todo',
+        component: () => import('../components/Todo.vue'),
+    },
+    {
+        path: '/calculator',
+        name: 'Calculator',
+        component: () => import('../components/Calculator.vue'),
+
+    },
+    {
+        path: '/vuexPractice',
+        name: 'VuexPractice',
+        component: () => import('../components/VuexPractice.vue'),
+
+    },
+    {
         path: '/note',
         name: 'Note',
         component: () => import('../components/Note.vue'),
@@ -14,6 +31,11 @@ const routes = [
         path: '/profile',
         name: 'Profile',
         component: () => import('../components/Profile.vue'),
+    },
+    {
+        path: '/learning',
+        name: 'Learning',
+        component: () => import('../components/Learning.vue')
     },
     {
         path: '/:pathMatch(.*)*',

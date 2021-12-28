@@ -1,10 +1,16 @@
 import { createStore } from 'vuex'
 
-import user from '../store/modules/user'
-
 const store = createStore({
-    modules: {
-        user,
+    state: {
+        count: 0
+    }, 
+    mutations: {
+        increment(state){
+            state.count++
+        },
+        incrementBy(state, payload) {
+            state.count += payload.amount
+        }
     }
 })
 
