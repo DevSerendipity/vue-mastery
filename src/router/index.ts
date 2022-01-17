@@ -23,6 +23,12 @@ const routes = [
 
     },
     {
+     path: '/checkoutForm',
+        name: 'CheckoutForm',
+        component: () => import('../components/CheckoutForm.vue'),
+
+    },
+    {
         path: '/note',
         name: 'Note',
         component: () => import('../components/Note.vue'),
